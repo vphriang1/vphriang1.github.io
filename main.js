@@ -61,6 +61,7 @@ Vue.component("morokot", {
 Vue.component("survey", {
   template: `<div id="survey">
     <form>
+    <span></span>
     <label>With 5 being the highest and 1 being the lowest, please rate how much this issue applies to you.</label>
       <div id="s-radio">
        
