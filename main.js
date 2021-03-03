@@ -35,12 +35,12 @@ Vue.component("prophets", {
         </div>
   
         <hr>
-       <morokot :biography=biography :lessons=lessons :achievements=achievements></morokot>
+       <morokot :lessons=lessons :achievements=achievements></morokot>
   </div>`,
 });
 
 Vue.component("morokot", {
-  props: ["biography", "lessons", "achievements"],
+  props: ["lessons", "achievements"],
   template: `<div class="lessons">
 
     <ul>
