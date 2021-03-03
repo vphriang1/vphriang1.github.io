@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>The Hidden Morokot</title>
+    <link rel="stylesheet" type="text/css" href="prophet.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="top">
+        <h1>The Hidden Morokot</h1>
+        <div class="topnav">
+          <a href="#">Test Ye Faith</a>
+          <a href="#">Foundations</a>
+          <a href="#">Decode</a>
+          <a href="#">Telescope</a>
+          <a href="#">Glossary</a>
+        </div>
+
+        <div id="intro">
+          <p>
+            What brings ye here? Something causing you trouble? Take this survey
+            and we will share with you the teachings of the Prophets, ey.
+          </p>
+        </div>
+        <survey></survey>
+      </div>
+      <hr />
+      <div id="assistant-char">
+        <img id="portal" src="portal.jpg" />
+        <h2 id="dialogue">Test ye faith</h2>
+      </div>
+
+      <div id="the-prophets">
+        <h2>The Prophets</h2>
+        <prophets
+          prophet="Buddha"
+          prophet-image="buddha1.jpg"
+          born="~623 B.C.E"
+          region="Lumbini"
+          :obstacle="obstacle1"
+          :solution="solution1"
+          :goal="goal1"
+          :biography="biography1"
+          :lessons="lesson1"
+          :achievements="achievements1"
+        ></prophets>
+        <prophets
+          prophet="Confucius"
+          prophet-image="confucius1.jpg"
+          born="~551 B.C.E"
+          region="Lu"
+          :obstacle="obstacle2"
+          :solution="solution2"
+          :goal="goal2"
+          :biography="biography2"
+          :lessons="lesson2"
+          :achievements="achievements2"
+        ></prophets>
+        <prophets
+          prophet="Jesus"
+          prophet-image="jesus1.jpg"
+          born="~4 BCE"
+          region="Bethlehem"
+          :obstacle="obstacle3"
+          :solution="solution3"
+          :goal="goal3"
+          :biography="biography3"
+          :lessons="lesson3"
+          :achievements="achievements3"
+        ></prophets>
+        <prophets
+          prophet="Mohammad"
+          prophet-image="mohammad1.jpg"
+          born="~570 A.D."
+          region="Mecca"
+          :obstacle="obstacle4"
+          :solution="solution4"
+          :goal="goal4"
+          :biography="biography4"
+          :lessons="lesson4"
+          :achievements="achievements4"
+        ></prophets>
+      </div>
+
+      <hr />
+      <h2>State automata</h2>
+      <p>
+        In the Christian bible, there was a young man named Joseph. Joseph was
+        summoned by Pharoah to interpret a dream. This dream contained 7 healthy
+        and 7 unhealthy cows. Joseph was able to interpret that the 7 healthy
+        cows foretold 7 years of agricultural abundance -likewise the other 7
+        unhealthy cows symbolized famine in the land. Having common sense and
+        reason Joseph warned Pharoah that the easy 7 years of blessings should
+        be used to accomadate for the difficult 7 years of upcoming hardship.
+        This made total sense to Pharoah and Pharoah was pleased.
+      </p>
+      <p>
+        Likewise, it's important for us today to have the right mindset. When we
+        have a firm understanding of life we are able to understand and make use
+        of the world.
+      </p>
+      <hr />
+      <h2>Prophecy</h2>
+      <p>Here are some interesting Prophecy by the Prophets.</p>
+      <p>(Not available at this time)</p>
+      <hr />
+      <h2>Glossary</h2>
+      <p>(Spiritual vocabulary not set up yet)</p>
+    </div>
+  </body>
+  <script></script>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="main.js"></script>
+</html>

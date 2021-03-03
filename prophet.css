@@ -1,0 +1,102 @@
+body {
+  font-size: 1em;
+}
+
+.topnav {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: right;
+  width: 100vw;
+}
+
+.topnav a {
+  border: 0px solid black;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  margin-right: 25px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.75em 0 0.35em 0em;
+  display: flex;
+  justify-content: left;
+}
+
+#intro {
+  line-height: 1.5em;
+  font-size: 1em;
+  margin: 0 0 1.5em 0.5em;
+  display: flex;
+  justify-content: left;
+}
+
+#assistant-char {
+  border: 0px solid black;
+  width: 25%;
+  display: block;
+  position: fixed;
+  top: 38vh;
+  left: 78vw;
+  visibility: hidden;
+}
+
+#portal {
+  width: 80%;
+}
+#dialogue {
+  margin-left: 55px;
+}
+
+#the-prophets {
+  
+  margin: auto;
+  
+  width: 50vw;
+  border: 0px solid black;
+}
+
+dt {
+  padding: 0.5em;
+}
+.prophet-img {
+  clear: both;
+  float: none;
+  margin-right: 10px;
+}
+.prophet-info {
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.origin {
+  clear: both;
+}
+#summary {
+  clear: both;
+  margin-top: 25px;
+}
+#survey {
+  margin-top: 15px;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.l-title {
+  margin-bottom: 10px;
+}
+li {
+  margin-left: 1em;
+}
+#s-radio {
+  display: block;
+}
+#survey-submit {
+  margin-top: 15px;
+}
