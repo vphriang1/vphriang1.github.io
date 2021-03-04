@@ -186,22 +186,22 @@ var app = new Vue({
 
       biography3: ["Jesus' story"],
       obstacle3:
-        "The practice of useless idolatory, the insincere, the lacking in integrity, the oppressive teachers of religion and law, superstition, social hopelessness, inner confusion, social cruelity",
+        "Oppression on the poor through use of idolatory, self centered drunkards, public fear of the possessed, worldly critics, the insincere hyprocrites that pretend to be something they are not, the buisnessmen lacking in integrity, the oppressive teachers of religion and law, the superstitions that held people backwards, social hopelessness, inner confusion, social cruelity",
       solution3:
-        "Impart parables, distinguish truth vs falsehood, free people to choose their own paths in life, make known the kingdom of soul vs the way of cheating man",
+        "He imparted parables to distinguish between truth and falsehood. Which in turn freed people to choose their own paths in life. He made known the kingdom of God in soul and it's contrast to the the way of cheating man.",
       goal3:
-        "Fufill the true meaning of the Prophetic Law, restore men back into their spiritual lineage, brought faith and love into the way of life, undo the fallen state of mind",
+        "He wanted people to follow the law in it's true meaning. This would require faith and love. He also wanted to restore the true type of person back into the person who is trapped in falsehood. He compared that being descendents of God ensures one to inherit the qualities of God - which is the hidden secret in their legal system. He brought faith and love back into a faithless and loveless society. He wanted to fix the fallen state of humanity by fixing the root issues of human existence.",
       achievements3: ["Not available at this time"],
       biography4: ["Muhammad's story"],
       obstacle4:
         "Toxic dominance, petty disputes, carelessness, natural disasters, selfish polytheism, idol worship, child sacrfice, abandonment from family members, the anti common good for all, pursuit of worldly gain over righteousness, religious persecution, community prejudice, government forced isolation, starvation, victimization, physical abuse, mockery, ridicule, military invasion, worldly attachments",
       solution4:
-        "Scientific ingenuity, trustworthiness, generosity to combat lacking, honor neighbors, timing, asking right questions, never speak a bad word in return, replace greed with compassion, replace selfishness with concern, answering questions mildly, staying true to father Abraham's goal, fighting always for the right cause, retaliation to aggressors when necessary, unity, staying humble after all outcomes, mercy toward enemies, forgiveness of enemies, maintain spiritual permenance until victory, praying 5 times a day, fasting during Ramadan, religious purification, removing foreign selfish ideas, enforcing spiritual standards - raising the bar of holiness in the world through proper etiquette, reveal truths of Islam by doing right deeds",
-      goal4: "Transform society to be upright and merciful",
+        "Demonstrated that having scientific ingenuity and engineering skills relates to solving real life social problems, received the reputation of trustworthy, taught that practicing generosity can prevent lacking, taught people to honor their neighbors, demonstrated being punctual during crucial times, demonstrated the power of asking the right questions, never spoke a bad word to anyone in return, he taught people to replace greed with compassion, taught people to replace selfishness with concern, taught people to answer questions mildly, demonstrated his trueness to his ancestor's goals; knowing about those before him, he taught to keep fighting for the right cause, demonstrated that fighting off aggressors is necessary for the true cause of universitality of men under God, demonstrated that properly guided unity can overcome the odds, demonstrated the discipline of staying humble after all outcomes, he showed mercy and forgiveness to his enemies, he prayed 5 times a day, he fasted during the time of Ramadan, he removed foreign selfish ideas from his people by boldly removing the impracticle attachments of the past, he enforced his community's spiritual standards by raising the bar of holiness and proper etiquette, he demonstrated that more truths of Islam is revealed when doing right deeds",
+      goal4: "He wanted to transform society to be upright and merciful",
       achievements4: [
         "women's rights - women in society were exalted to higher positions at a fast pace than ever seen before",
         "gratitude - his followers were admired for bringing peace everywhere they went and were welcomed in believing places",
-        "influene - became head of state",
+        "influence - became head of state",
         "civics - established a social order",
       ],
 
