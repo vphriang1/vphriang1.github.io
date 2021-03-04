@@ -25,9 +25,9 @@ Vue.component("prophets", {
           </li>
         </ul>
             <dl class="description">
-                <dt>The things he dealt with:</dt>
+                <dt>List the things he dealt with:</dt>
                     <dd> {{obstacle}} </dd>
-                <dt>What he did:</dt>
+                <dt>List of his response during the course of his prophet-hood:</dt>
                     <dd> {{solution}} </dd>
                 <dt>His mission:</dt>
                     <dd> {{goal}} </dd>      
@@ -62,87 +62,87 @@ Vue.component("survey", {
   template: `<div id="survey">
     <form>
     <span></span>
-    <label>With 5 being the highest and 1 being the lowest, please rate how much this issue applies to you.</label>
+    <label>With 5 being the highest and 1 being the lowest, please rate how much the issue applies to you.</label>
       <div id="s-radio">
        
-          Self esteem and confidence
+          I have self esteem and confidence issues
           <input name="question1" type="radio">5</input>
           <input name="question1" type="radio">4</input>
           <input name="question1" type="radio">3</input>
           <input name="question1" type="radio">2</input>
           <input name="question1" type="radio">1</input>
           <br>
-          Oppression and bullying
+          I deal with oppression and verbal abuse
           <input name="question2" type="radio">5</input>
           <input name="question2" type="radio">4</input>
           <input name="question2" type="radio">3</input>
           <input name="question2" type="radio">2</input>
           <input name="question2" type="radio">1</input>
           <br>
-          Financial problems
+          I have financial worries
           <input name="question3" type="radio">5</input>
           <input name="question3" type="radio">4</input>
           <input name="question3" type="radio">3</input>
           <input name="question3" type="radio">2</input>
           <input name="question3" type="radio">1</input>
           <br>
-          Home and family life
+          My home and family life is unstable
           <input name="question4" type="radio">5</input>
           <input name="question4" type="radio">4</input>
           <input name="question4" type="radio">3</input>
           <input name="question4" type="radio">2</input>
           <input name="question4" type="radio">1</input>
           <br>
-          Staying positive
+          I have no hope or optimism
           <input name="question5" type="radio">5</input>
           <input name="question5" type="radio">4</input>
           <input name="question5" type="radio">3</input>
           <input name="question5" type="radio">2</input>
           <input name="question5" type="radio">1</input>
           <br>
-          I struggle with health problems
+          My health is bad
           <input name="question6" type="radio">5</input>
           <input name="question6" type="radio">4</input>
           <input name="question6" type="radio">3</input>
           <input name="question6" type="radio">2</input>
           <input name="question6" type="radio">1</input>
           <br>
-          Relationship and love life
+          I have relationship and love problems
           <input name="question7" type="radio">5</input>
           <input name="question7" type="radio">4</input>
           <input name="question7" type="radio">3</input>
           <input name="question7" type="radio">2</input>
           <input name="question7" type="radio">1</input>
           <br>
-          Self improvement
+          I am trying to change
           <input name="question8" type="radio">5</input>
           <input name="question8" type="radio">4</input>
           <input name="question8" type="radio">3</input>
           <input name="question8" type="radio">2</input>
           <input name="question8" type="radio">1</input>
           <br>
-          Fear and worry
+          I am in constant fear and worry
           <input name="question9" type="radio">5</input>
           <input name="question9" type="radio">4</input>
           <input name="question9" type="radio">3</input>
           <input name="question9" type="radio">2</input>
           <input name="question9" type="radio">1</input>
           <br>
-          Starting an enterprise and endeavor
+          I am trying to start something new like an enterprise or endeavor
           <input name="question10" type="radio">5</input>
           <input name="question10" type="radio">4</input>
           <input name="question10" type="radio">3</input>
           <input name="question10" type="radio">2</input>
           <input name="question10" type="radio">1</input>
           <br>
-          Lonliness and depression
+          I struggle with lonliness and depression
           <input name="question11" type="radio">5</input>
           <input name="question11" type="radio">4</input>
           <input name="question11" type="radio">3</input>
           <input name="question11" type="radio">2</input>
           <input name="question11" type="radio">1</input>
           <br>
-          Conquering addictions
+          I am addicted to alchohol or drugs
           <input name="question12" type="radio">5</input>
           <input name="question12" type="radio">4</input>
           <input name="question12" type="radio">3</input>
@@ -184,7 +184,7 @@ var app = new Vue({
         "Fufill the true meaning of the Prophetic Law, restore men back into their spiritual lineage, brought faith and love into the way of life, undo the fallen state of mind",
 
       obstacle4:
-        "Toxic dominance, petty disputes, carelessness, religious disorder, natural disasters, selfish polytheism, idol worship, child sacrfice, abandonment from family members, anti-One God, pursuit of worldly gain over righteousness, religious persecution, prejudice, government forced isolation, starvation, victimization, stoning, mockery, ridicule, military invasion, worldly attachments",
+        "Toxic dominance, petty disputes, carelessness, natural disasters, selfish polytheism, idol worship, child sacrfice, abandonment from family members, the anti common good for all, pursuit of worldly gain over righteousness, religious persecution, community prejudice, government forced isolation, starvation, victimization, physical abuse, mockery, ridicule, military invasion, worldly attachments",
       solution4:
         "Scientific ingenuity, trustworthiness, generosity to combat lacking, honor neighbors, timing, asking right questions, never speak a bad word in return, replace greed with compassion, replace selfishness with concern, answering questions mildly, staying true to father Abraham's goal, fighting always for the right cause, retaliation to aggressors when necessary, unity, staying humble after all outcomes, mercy toward enemies, forgiveness of enemies, maintain spiritual permenance until victory, praying 5 times a day, fasting during Ramadan, religious purification, removing foreign selfish ideas, enforcing spiritual standards - raising the bar of holiness in the world through proper etiquette, reveal truths of Islam by doing right deeds",
       goal4: "Transform society to be upright and merciful",
