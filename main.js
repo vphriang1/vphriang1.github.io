@@ -15,19 +15,17 @@ Vue.component("prophets", {
       <h3>Prophet {{prophet}}</h3>
         <div class="prophet-image">
             <img class="prophet-img" style="width: 200px" v-bind:src="prophetImage" v-bind:alt="prophet"/>   
-            <div class="prophet-info">
+            <div class="prophet-bg-info">
             <span>Born: {{born}}</span> <br><span class="origin">Origin: {{region}}</span>
           </div>
-          <ul>
-          <label class="l-title">Biography</label>
-          <li v-for="(item, index) in biography">
-            <a href="#">{{item}}</a>
-          </li>
-        </ul>
+   
             <dl class="description">
-                <dt>List the things he dealt with:</dt>
+            <dt>Biography</dt>
+         
+            <dd>{{biography}}</dd>
+                <dt>List of the things he dealt with:</dt>
                     <dd> {{obstacle}} </dd>
-                <dt>List of his character qualities and acts of holiness:</dt>
+                <dt>List of the things he did to help society:</dt>
                     <dd> {{solution}} </dd>
                 <dt>His earthly mission:</dt>
                     <dd> {{goal}} </dd>      
@@ -163,7 +161,7 @@ var app = new Vue({
   el: "#app",
   data() {
     return {
-      biography1: ["Buddha's story"],
+      biography1: "Buddha's story",
       obstacle1:
         "Family expectations, social obligations, religious extremists, narrow-sightedness, conflicts involving selfishness, conflicts involving ego, conflicts involving greed",
       solution1:
@@ -171,7 +169,7 @@ var app = new Vue({
       goal1: "Conquer the mind, the root issues of life, end suffering",
       achievements1: ["Not available at this time"],
 
-      biography2: ["Confucius' story"],
+      biography2: "Confucius' story",
       obstacle2:
         "War, bloodshed, neglect by community, born of the lower class, deformities from birth, social awkwardness, desparate poverty, insecurity, social disconnection, ruling class oppression, weak followers, exile, taxes from government, being in the state of no choice, blunt honesty",
       solution2:
@@ -184,15 +182,15 @@ var app = new Vue({
         "influence - became a governor",
       ],
 
-      biography3: ["Jesus' story"],
+      biography3: "Jesus' story",
       obstacle3:
-        "Oppression on the poor through use of idolatory, self centered drunkards, public fear of the possessed, worldly critics, the insincere hyprocrites that pretend to be something they are not, the buisnessmen lacking in integrity, the oppressive teachers of religion and law, the superstitions that held people backwards, social hopelessness, inner confusion, social cruelity",
+        "Idolatory, self centered people, the judgers of others outside themselves but never judging within, the community fearing of evil spirits, people who turn a blind eye to other's suffering, the hyprocrites whom pretend to be holier than they actually were, the buisnessmen whom used the temple for commerce and not what it was intended for, the oppressive teachers of religion and law",
       solution3:
-        "He imparted parables to distinguish between truth and falsehood. Which in turn freed people to choose their own paths in life. He made known the kingdom of God in soul and it's contrast to the the way of cheating man.",
+        "He healed the sick. He healed the blind. He healed the lame. He healed the possessed. He ressurected the dead. He calmed the storms. He tamed the fires. He drove bad situations away from his people. He helped people distinguish between truth and falsehood through parables. He also described what true equality means through parables. He provided examples, revelation, and evidence in order for his people to develop faith.",
       goal3:
-        "He wanted people to follow the law in it's true meaning. This would require faith and love. He also wanted to restore the true type of person back into the person who is trapped in falsehood. He compared that being descendents of God ensures one to inherit the qualities of God - which is the hidden secret in their legal system. He brought faith and love back into a faithless and loveless society. He wanted to fix the fallen state of humanity by fixing the root issues of human existence.",
+        "He wanted his people to realize the law in it's true meaning as opposed to just adhering to basic dos and don'ts. He wanted to free his people from the harsh treatments of life; which was inflicted by the oppressive priesthood whom were also subjected to the Roman empire. He wanted his people to make use of what they had inherited from their forefathers. He wanted to see his people practice life with faith and love rather than distrust and hate. He also wanted to endure every type of hardship so that men from all walks of life may relate to him. He wanted his people to realize that the reason why they have Godly qualities is because they are naturally inheriting from God. He wanted to identify each and every person's particular error in order to restore them back into their natural state of being.",
       achievements3: ["Not available at this time"],
-      biography4: ["Muhammad's story"],
+      biography4: "Muhammad's story",
       obstacle4:
         "Toxic dominance, petty disputes, carelessness, natural disasters, selfish polytheism, idol worship, child sacrfice, abandonment from family members, the anti common good for all, pursuit of worldly gain over righteousness, religious persecution, community prejudice, government forced isolation, starvation, victimization, physical abuse, mockery, ridicule, military invasion, worldly attachments",
       solution4:
