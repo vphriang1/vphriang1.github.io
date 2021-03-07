@@ -165,15 +165,15 @@ var app = new Vue({
       obstacle1:
         "Not available at this time",
       solution1:
-        "Perform right actions, have a balanced viewpoint, study the lessons of nature, study how nature interacts, develop courage, develop good deeds, develop merit, develop compassion",
+        "He prescribed righteous principles to live by, he taught to treat everything with a middle way - to not do too much or too little, he refered people to the facts of nature which can never lie, he taught people to use logic over violence, he taught people what benefits come out of doing good deeds for this life and the next",
       goal1: "He wanted to conquer his mind and eliminate the root issues of his life such as anger and greed in order to free himself from life's wheel of suffering.",
       achievements1: ["Not available at this time"],
 
-      biography2: "",
-      obstacle2:
-        "Being poor, dishonor, neglect, he was born deformed, he did not fit in with other children, he lost his mother at an early age - the only person who cared for him, his clients betrayed him, he was exiled for speaking truth, he saw how the government used tax to benefit off it's citizens, he saw peasants living in state of no choice and no future, he brought danger to himself throughout his life because of his blunt honesty",
+      biography2: "Being poor, dishonor, neglect, he was born deformed, he did not fit in with other children, He created his own games to play with as a child without bothering anyone, he researched ancestral poems and history to become a better person, he lost his mother at an early age - the only person who cared for him, his clients betrayed him, he was exiled for speaking truth, he saw how the government used tax to benefit off it's citizens, he saw peasants living in state of no choice and no future, he brought danger to himself throughout his life because of his blunt honesty",
+      
+      obstacle2:"Not available at this time",
       solution2:
-        "He created his own games to play with as a child without bothering anyone, he researched ancestral poems and history to become a better person, he taught how to create a functional family life so that people can have the family he never had, he searched far and wide for a political leader that would accept him as their sage teacher, he purposely captured the attention of the ruling class men, he replaced the social standard from a penal code based living to a virtuous code based living, he identified the root of societies problems and replaced it with a merciful foundation",
+        "He taught how to create a functional family life so that people can have the family he never had, he searched far and wide for a political leader that would accept him as their sage teacher, he purposely captured the attention of the ruling class men, he replaced the social standard from a penal code based living to a virtuous code based living, he identified the root of societies problems and replaced it with a merciful foundation",
       goal2:
         "He wanted to end corruption, bloodshed, restore peace to the land by finding a virtous ruler to accept him as a teacher. And his teaching is based on family principles.",
       achievements2: [
