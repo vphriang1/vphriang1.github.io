@@ -20,8 +20,8 @@ Vue.component("prophets", {
           </div>
    
             <dl class="description">
-            <dt>Biography</dt>
-         
+            <dt>{{prophet}}'s story</dt>
+
             <dd>{{biography}}</dd>
                 <dt>List of the things he dealt with:</dt>
                     <dd> {{obstacle}} </dd>
@@ -161,36 +161,36 @@ var app = new Vue({
   el: "#app",
   data() {
     return {
-      biography1: "Buddha's story",
+      biography1: "His father wanted him to become a mighty king when he did not want, he grew up contained in a palace and was kept oblivious to the harsh realities of life, his uncles ruled by the sword when he believed in rulling my compassion, his mother died giving birth to him, he had a wife and child that he had to let go because he was ready to transcend suffering, he wanted to find a way to end suffering for all living beings at the cost of letting go of everyone and everything, he was rejected by his religious teachers for not being as extreme as they were, he created a school, he got the reputation of an athiest, he faced many challenges, many came to persecute him or find help from him, he resolved many issues.",
       obstacle1:
-        "Family expectations, social obligations, religious extremists, narrow-sightedness, conflicts involving selfishness, conflicts involving ego, conflicts involving greed",
+        "Not available at this time",
       solution1:
         "Perform right actions, have a balanced viewpoint, study the lessons of nature, study how nature interacts, develop courage, develop good deeds, develop merit, develop compassion",
-      goal1: "Conquer the mind, the root issues of life, end suffering",
+      goal1: "He wanted to conquer his mind and eliminate the root issues of his life such as anger and greed in order to free himself from life's wheel of suffering.",
       achievements1: ["Not available at this time"],
 
-      biography2: "Confucius' story",
+      biography2: "",
       obstacle2:
-        "War, bloodshed, neglect by community, born of the lower class, deformities from birth, social awkwardness, desparate poverty, insecurity, social disconnection, ruling class oppression, weak followers, exile, taxes from government, being in the state of no choice, blunt honesty",
+        "Being poor, dishonor, neglect, he was born deformed, he did not fit in with other children, he lost his mother at an early age - the only person who cared for him, his clients betrayed him, he was exiled for speaking truth, he saw how the government used tax to benefit off it's citizens, he saw peasants living in state of no choice and no future, he brought danger to himself throughout his life because of his blunt honesty",
       solution2:
-        "Creativity, apetite for knowledge, studied history, independent research, unsubscribe from public opinion, develop family love, captured the attention of ruling class men, correct bad conditions in society that create social problems",
+        "He created his own games to play with as a child without bothering anyone, he researched ancestral poems and history to become a better person, he taught how to create a functional family life so that people can have the family he never had, he searched far and wide for a political leader that would accept him as their sage teacher, he purposely captured the attention of the ruling class men, he replaced the social standard from a penal code based living to a virtuous code based living, he identified the root of societies problems and replaced it with a merciful foundation",
       goal2:
-        "Ending corruption, ending bloodshed, restoring peace to the land, finding a virtous ruler to accept him as a teacher, save the world",
+        "He wanted to end corruption, bloodshed, restore peace to the land by finding a virtous ruler to accept him as a teacher. And his teaching is based on family principles.",
       achievements2: [
         "safe streets - crime virtually disappeared",
         "good buisness - merchants no longer cheated their customers",
         "influence - became a governor",
       ],
 
-      biography3: "Jesus' story",
+      biography3: "",
       obstacle3:
-        "Idolatory, self centered people, the judgers of others outside themselves but never judging within, the community fearing of evil spirits, people who turn a blind eye to other's suffering, the hyprocrites whom pretend to be holier than they actually were, the buisnessmen whom used the temple for commerce and not what it was intended for, the oppressive teachers of religion and law",
+        "Idol worshipers, self centered people whom have no compassaion for outsiders, those who judge others without ever judging them self, wicked spirits that bullied it's host, people with irrational fears, buisnessmen whom used the temple for commerce instead of what it was intended for, materialistic religious leaders, the burdens of living under a government that is under the iron grip of a more powerful government",
       solution3:
-        "He healed the sick. He healed the blind. He healed the lame. He healed the possessed. He ressurected the dead. He calmed the storms. He tamed the fires. He drove bad situations away from his people. He helped people distinguish between truth and falsehood through parables. He also described what true equality means through parables. He provided examples, revelation, and evidence in order for his people to develop faith.",
+        "He healed the sick, he healed the blind he healed the lame, he healed the possessed, he ressurected the dead, he calmed the storms, he tamed the fires, he drove bad situations away from approaching his people, he helped people distinguish between truth and falsehood, he described what true equality means, he provided examples, revelation, and evidence in order for his people to develop faith.",
       goal3:
-        "He wanted his people to realize the law in it's true meaning as opposed to just adhering to basic dos and don'ts. He wanted to free his people from the harsh treatments of life; which was inflicted by the oppressive priesthood whom were also subjected to the Roman empire. He wanted his people to make use of what they had inherited from their forefathers. He wanted to see his people practice life with faith and love rather than distrust and hate. He also wanted to endure every type of hardship so that men from all walks of life may relate to him. He wanted his people to realize that the reason why they have Godly qualities is because they are naturally inheriting from God. He wanted to identify each and every person's particular error in order to restore them back into their natural state of being.",
+        "He wanted his people to realize the law in it's true meaning as opposed to just adhering to basic dos and don'ts. He wanted to free his people from the harsh treatments of life; free his people from oppressive priesthood and the Roman empire. He wanted his people to make use of what they had inherited from their forefathers. He wanted to see his people practice life with faith and love rather than distrust and hate. He also wanted to endure every type of hardship so that men from all walks of life may relate to him. He wanted his people to realize that the reason why they have Godly qualities is because they are naturally inheriting from God. He wanted to identify each and every person's particular error in order to restore them back into their natural state of being.",
       achievements3: ["Not available at this time"],
-      biography4: "Muhammad's story",
+      biography4: "",
       obstacle4:
         "Toxic dominance, petty disputes, carelessness, natural disasters, selfish polytheism, idol worship, child sacrfice, abandonment from family members, the anti common good for all, pursuit of worldly gain over righteousness, religious persecution, community prejudice, government forced isolation, starvation, victimization, physical abuse, mockery, ridicule, military invasion, worldly attachments",
       solution4:
