@@ -31,7 +31,7 @@ Vue.component("prophets", {
                     <dd> {{goal}} </dd>      
             </dl>
         </div>
-        <label class="l-title">Achievements</label>
+        <p class="l-title">Achievements</p>
         <ul>
         
         <li v-for="(item, index) in achievements">
@@ -59,7 +59,7 @@ Vue.component("survey", {
   template: `<div id="survey">
     <form>
     <span></span>
-    <label>With 5 being the highest and 1 being the lowest, please rate how much the issue applies to you.</label>
+    <p>With 5 being the highest and 1 being the lowest, please rate how much the issue applies to you.</p>
       <div id="s-radio">
        
           I have self esteem and confidence issues
