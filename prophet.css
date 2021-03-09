@@ -2,8 +2,8 @@ body {
 }
 
 #top-block {
-  height: 15vh;
-  background-color: whitesmoke;
+  height: 100px;
+  background-color: purple;
 }
 
 .title-blocks {
@@ -13,7 +13,6 @@ body {
 }
 
 #title {
-  height: 100vh;
 }
 
 h1 {
@@ -22,28 +21,15 @@ h1 {
   border: 0px solid black;
 }
 
-.grid-container {
-  margin-top: 5vh;
-  
-  display: grid;
-  grid-template-columns: 33vw 33vw 33vw;
-  justify-content: center;
-  float: right;
-
-}
-.grid-item {
-  border: 1px solid black;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;;
-}
-
 .topnav {
   margin-top: 0.5em;
-  display: flex;
-  justify-content: center;
-  width: 100vw;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  
+  border: 1px solid black;
+  position: fixed;
+  left: 79vw;
+
 }
 
 .topnav a {
@@ -51,7 +37,7 @@ h1 {
   padding: 5px;
   text-decoration: none;
   font-size: 1em;
-  margin-right: 25px;
+  
 }
 
 #intro {
