@@ -31,8 +31,9 @@ Vue.component("prophets", {
                     <dd> {{goal}} </dd>      
             </dl>
         </div>
-        <ul>
         <label class="l-title">Achievements</label>
+        <ul>
+        
         <li v-for="(item, index) in achievements">
           {{item}}
         </li>
