@@ -2,14 +2,12 @@ body {
 }
 
 #top-block {
-  height: 100px;
+  height: 30px;
   background-color: purple;
 }
 
-.title-blocks {
-  height: 1vh;
-  border: 1px solid black;
-  background-color: black;
+hr {
+  width: 30%;
 }
 
 #title {
@@ -56,6 +54,9 @@ h1 {
 }
 #survey-submit {
   margin-top: 15px;
+}
+#story-gen {
+  text-align: center;
 }
 
 #sacred-geo {

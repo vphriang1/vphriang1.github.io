@@ -37,8 +37,6 @@ Vue.component("prophets", {
           {{item}}
         </li>
       </ul>
-  
-        <hr>
        <morokot :lessons=lessons :achievements=achievements></morokot>
   </div>`,
 });
@@ -151,8 +149,6 @@ Vue.component("survey", {
         <input id="survey-submit" type="submit" value="Submit">
     
     </form>
-    <label>Here are the stories you should read:</label>
-    <p>(This feature is not set up yet)</p>
   </div>
   `,
 });
