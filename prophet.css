@@ -2,12 +2,12 @@ body {
 }
 
 #top-block {
-  height: 30vh;
+  height: 15vh;
   background-color: whitesmoke;
 }
 
 .title-blocks {
-  height: 2vh;
+  height: 1vh;
   border: 1px solid black;
   background-color: black;
 }
@@ -23,11 +23,12 @@ h1 {
 }
 
 .grid-container {
-  margin-top: 30vh;
+  margin-top: 5vh;
   
   display: grid;
-  grid-template-columns: 45vw;
+  grid-template-columns: 33vw 33vw 33vw;
   justify-content: center;
+  float: right;
 
 }
 .grid-item {
