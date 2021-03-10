@@ -21,12 +21,13 @@
 .nav {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
 
   border: 0px solid black;
   position: fixed;
   top: 60px;
   z-index: 1;
+  
 }
 
 .nav a {
