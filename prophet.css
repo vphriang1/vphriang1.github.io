@@ -1,29 +1,59 @@
-.topnav {
-
-  display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  
-  border: 1px solid black;
+#topnav {
+  z-index: 1;
   position: fixed;
-  left: 79vw;
-
+  top: 5px;
+  right: 20px;
 }
-
-.topnav a {
-  border: 0px solid black;
-  padding: 5px;
-  text-decoration: none;
-  
-}
-
-#app p, .prophet-image{
-width: 50%;
-line-height: 25px;
+#topnav-link {
+  z-index: 1;
 }
 
 #top-block {
   height: 30px;
+  width: 100%;
   background-color: purple;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  top: 28px;
+}
+
+.nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+
+  border: 0px solid black;
+  position: fixed;
+  top: 60px;
+  z-index: 1;
+}
+
+.nav a {
+  border: 0px solid black;
+  text-decoration: none;
+}
+
+#content-cover {
+  background-color: white;
+  height: 76px;
+  width: 100%;
+  border: 0 solid black;
+  position: fixed;
+  top: 0px;
+  z-index: 0;
+}
+
+#app {
+  z-index: -1;
+  display: block;
+  margin-top: 75px;
+}
+
+#app p,
+.prophet-image {
+  width: 100%;
+  line-height: 25px;
 }
 
 hr {
@@ -35,11 +65,9 @@ h1 {
   border: 0px solid black;
 }
 
-
-
 #intro {
   line-height: 1.5em;
- 
+
   margin: 0 0 1.5em 0.5em;
   display: flex;
   justify-content: left;
@@ -77,7 +105,7 @@ h1 {
 
 #the-prophets {
   margin: auto;
-  
+
   border: 0px solid black;
 }
 
@@ -112,4 +140,3 @@ li {
   margin-left: 1em;
   font-size: 12px;
 }
-

@@ -158,17 +158,19 @@ var app = new Vue({
   el: "#app",
   data() {
     return {
-      biography1: "His father wanted him to become a mighty king when he did not want, he grew up contained in a palace and was kept oblivious to the harsh realities of life, his uncles ruled by the sword when he believed in rulling my compassion, his mother died giving birth to him, he had a wife and child that he had to let go because he was ready to transcend suffering, he wanted to find a way to end suffering for all living beings at the cost of letting go of everyone and everything, he was rejected by his religious teachers for not being as extreme as they were, he created a school, he got the reputation of an athiest, he faced many challenges, many came to persecute him or find help from him, he resolved many issues.",
-      obstacle1:
-        "Not available at this time",
+      biography1:
+        "His father wanted him to become a mighty king when he did not want, he grew up contained in a palace and was kept oblivious to the harsh realities of life, his uncles ruled by the sword when he believed in rulling my compassion, his mother died giving birth to him, he had a wife and child that he had to let go because he was ready to transcend suffering, he wanted to find a way to end suffering for all living beings at the cost of letting go of everyone and everything, he was rejected by his religious teachers for not being as extreme as they were, he created a school, he got the reputation of an athiest, he faced many challenges, many came to persecute him or find help from him, he resolved many issues.",
+      obstacle1: "Not available at this time",
       solution1:
         "He prescribed righteous principles to live by, he taught to treat everything with a middle way - to not do too much or too little, he refered people to the facts of nature which can never lie, he taught people to use logic over violence, he taught people what benefits come out of doing good deeds for this life and the next",
-      goal1: "He wanted to conquer his mind and eliminate the root issues of his life such as anger and greed in order to free himself from life's wheel of suffering.",
+      goal1:
+        "He wanted to conquer his mind and eliminate the root issues of his life such as anger and greed in order to free himself from life's wheel of suffering.",
       achievements1: ["Not available at this time"],
 
-      biography2: "Being poor, dishonor, neglect, he was born deformed, he did not fit in with other children, He created his own games to play with as a child without bothering anyone, he researched ancestral poems and history to become a better person, he lost his mother at an early age - the only person who cared for him, his clients betrayed him, he was exiled for speaking truth, he saw how the government used tax to benefit off it's citizens, he saw peasants living in state of no choice and no future, he brought danger to himself throughout his life because of his blunt honesty",
-      
-      obstacle2:"Not available at this time",
+      biography2:
+        "Being poor, dishonor, neglect, he was born deformed, he did not fit in with other children, He created his own games to play with as a child without bothering anyone, he researched ancestral poems and history to become a better person, he lost his mother at an early age - the only person who cared for him, his clients betrayed him, he was exiled for speaking truth, he saw how the government used tax to benefit off it's citizens, he saw peasants living in state of no choice and no future, he brought danger to himself throughout his life because of his blunt honesty",
+
+      obstacle2: "Not available at this time",
       solution2:
         "He taught how to create a functional family life so that people can have the family he never had, he searched far and wide for a political leader that would accept him as their sage teacher, he purposely captured the attention of the ruling class men, he replaced the social standard from a penal code based living to a virtuous code based living, he identified the root of societies problems and replaced it with a merciful foundation",
       goal2:
