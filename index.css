@@ -64,3 +64,13 @@ h1 {
 .story-gen {
   text-align: center;
 }
+
+#footer {
+  margin-top: 50px;
+  height: 200px;
+  background-color: gray;
+}
+#rock-bottom{
+  height: 50px;
+  background-color: black;
+}
