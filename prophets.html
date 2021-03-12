@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>The Hidden Morokot</title>
+    <link rel="stylesheet" type="text/css" href="prophets.css" />
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+
+
+    <div id="app">
+
+
+        <div id="top-block">
+        </div>
+
+        <div id="content-cover"></div>
+
+
+        <div id="title">
+            <h1>The Hidden Morokot</h1>
+        </div>
+
+
+        <h2>The prophets</h2>
+        <div id="the-prophets">
+
+            <prophets prophet="Buddha" prophet-image="img/buddha1.jpg" born="~623 B.C.E" region="Lumbini"
+                :obstacle="obstacle1" :solution="solution1" :goal="goal1" :biography="biography1" :lessons="lesson1"
+                :achievements="achievements1">
+            </prophets>
+            <prophets prophet="Confucius" prophet-image="img/confucius1.jpg" born="~551 B.C.E" region="Lu"
+                :obstacle="obstacle2" :solution="solution2" :goal="goal2" :biography="biography2" :lessons="lesson2"
+                :achievements="achievements2">
+            </prophets>
+            <prophets prophet="Jesus" prophet-image="img/jesus1.jpg" born="~4 BCE" region="Bethlehem"
+                :obstacle="obstacle3" :solution="solution3" :goal="goal3" :biography="biography3" :lessons="lesson3"
+                :achievements="achievements3">
+            </prophets>
+            <prophets prophet="Mohammad" prophet-image="img/mohammad1.jpg" born="~570 A.D." region="Mecca"
+                :obstacle="obstacle4" :solution="solution4" :goal="goal4" :biography="biography4" :lessons="lesson4"
+                :achievements="achievements4">
+            </prophets>
+        </div>
+
+
+    </div>
+</body>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="main.js"></script>
+
+</html>

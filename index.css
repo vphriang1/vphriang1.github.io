@@ -1,0 +1,66 @@
+#topnav {
+  z-index: 1;
+  position: fixed;
+  top: 5px;
+  right: 20px;
+  font-size: 1em;
+
+}
+#topnav-link a{
+  margin-left: 20px;
+  border: 0px solid black;
+}
+
+#top-block {
+  height: 30px;
+  width: 100%;
+  background-color: purple;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+}
+
+#content-cover {
+  background-color: white;
+  height: 76px;
+  width: 100%;
+  border: 0 solid black;
+  position: fixed;
+  top: 0px;
+  z-index: 0;
+}
+
+#app {
+  z-index: -1;
+  display: block;
+  margin-top: 75px;
+}
+
+#app p {
+  width: 100%;
+  line-height: 25px;
+}
+
+hr {
+  width: 30%;
+}
+
+h1 {
+  font-size: 3em;
+  border: 0px solid black;
+  text-align: center;
+}
+
+.survey {
+  margin-top: 15px;
+}
+.survey-radio {
+  display: block;
+}
+.survey-submit {
+  margin-top: 15px;
+}
+.story-gen {
+  text-align: center;
+}

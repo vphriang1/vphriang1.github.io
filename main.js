@@ -31,23 +31,23 @@ Vue.component("prophets", {
                     <dd> {{goal}} </dd>      
             </dl>
         </div>
-        <p class="l-title">Achievements</p>
+        <p class="break-down-title">Achievements</p>
         <ul>
         
         <li v-for="(item, index) in achievements">
           {{item}}
         </li>
       </ul>
-       <morokot :lessons=lessons :achievements=achievements></morokot>
+       <lessons :lessons=lessons :achievements=achievements></lessons>
   </div>`,
 });
 
-Vue.component("morokot", {
+Vue.component("lessons", {
   props: ["lessons"],
   template: `<div class="lessons">
 
     <ul>
-      <label class="l-title">Teachings</label>
+      <label class="break-down-title">Teachings</label>
       <li v-for="(item, index) in lessons">
         <a href="#">{{item}} {{index}}</a>
       </li>
@@ -55,91 +55,225 @@ Vue.component("morokot", {
   </div>`,
 });
 
-Vue.component("survey", {
-  template: `<div id="survey">
+Vue.component("survey1", {
+  template: `<div class="survey">
     <form>
-    <span></span>
+    
     <p>With 5 being the highest and 1 being the lowest, please rate how much the issue applies to you.</p>
-      <div id="s-radio">
+      <div class="survey-radio">
        
-          I have self esteem and confidence issues
+          I want to feel more brave
           <input name="question1" type="radio">5</input>
           <input name="question1" type="radio">4</input>
           <input name="question1" type="radio">3</input>
           <input name="question1" type="radio">2</input>
           <input name="question1" type="radio">1</input>
           <br>
-          I deal with oppression and verbal abuse
+          Someone around me is verbally abusive
           <input name="question2" type="radio">5</input>
           <input name="question2" type="radio">4</input>
           <input name="question2" type="radio">3</input>
           <input name="question2" type="radio">2</input>
           <input name="question2" type="radio">1</input>
           <br>
-          I have financial worries
+          I am worried about the future
           <input name="question3" type="radio">5</input>
           <input name="question3" type="radio">4</input>
           <input name="question3" type="radio">3</input>
           <input name="question3" type="radio">2</input>
           <input name="question3" type="radio">1</input>
           <br>
-          My home and family life is unstable
+          I live in an unstable household
           <input name="question4" type="radio">5</input>
           <input name="question4" type="radio">4</input>
           <input name="question4" type="radio">3</input>
           <input name="question4" type="radio">2</input>
           <input name="question4" type="radio">1</input>
           <br>
-          I have no hope or optimism
+          I feel depressed
           <input name="question5" type="radio">5</input>
           <input name="question5" type="radio">4</input>
           <input name="question5" type="radio">3</input>
           <input name="question5" type="radio">2</input>
           <input name="question5" type="radio">1</input>
           <br>
-          My health is bad
-          <input name="question6" type="radio">5</input>
-          <input name="question6" type="radio">4</input>
-          <input name="question6" type="radio">3</input>
-          <input name="question6" type="radio">2</input>
-          <input name="question6" type="radio">1</input>
-          <br>
-          I have relationship and love problems
+         
+          I have love problems
           <input name="question7" type="radio">5</input>
           <input name="question7" type="radio">4</input>
           <input name="question7" type="radio">3</input>
           <input name="question7" type="radio">2</input>
           <input name="question7" type="radio">1</input>
           <br>
-          I am trying to change
+          
+      
+          I am addicted to alchohol or drugs
+          <input name="question12" type="radio">5</input>
+          <input name="question12" type="radio">4</input>
+          <input name="question12" type="radio">3</input>
+          <input name="question12" type="radio">2</input>
+          <input name="question12" type="radio">1</input>             
+      </div>
+      
+        <input id="survey-submit" type="submit" value="Submit">
+    
+    </form>
+  </div>
+  `,
+});
+
+Vue.component("survey2", {
+  template: `<div class="survey">
+    <form>
+ 
+    <p>With 5 being the highest and 1 being the lowest, please rate how much the issue applies to you.</p>
+      <div class="survey-radio">
+       
+          I have acne
+          <input name="question1" type="radio">5</input>
+          <input name="question1" type="radio">4</input>
+          <input name="question1" type="radio">3</input>
+          <input name="question1" type="radio">2</input>
+          <input name="question1" type="radio">1</input>
+          <br>
+          My skin is dry
+          <input name="question2" type="radio">5</input>
+          <input name="question2" type="radio">4</input>
+          <input name="question2" type="radio">3</input>
+          <input name="question2" type="radio">2</input>
+          <input name="question2" type="radio">1</input>
+          <br>
+          My hair is oily
+          <input name="question3" type="radio">5</input>
+          <input name="question3" type="radio">4</input>
+          <input name="question3" type="radio">3</input>
+          <input name="question3" type="radio">2</input>
+          <input name="question3" type="radio">1</input>
+          <br>
+          I smell bad
+          <input name="question4" type="radio">5</input>
+          <input name="question4" type="radio">4</input>
+          <input name="question4" type="radio">3</input>
+          <input name="question4" type="radio">2</input>
+          <input name="question4" type="radio">1</input>
+          <br>
+          I have frequent headaches
+          <input name="question5" type="radio">5</input>
+          <input name="question5" type="radio">4</input>
+          <input name="question5" type="radio">3</input>
+          <input name="question5" type="radio">2</input>
+          <input name="question5" type="radio">1</input>
+          <br>
+          I often feel tired
+          <input name="question6" type="radio">5</input>
+          <input name="question6" type="radio">4</input>
+          <input name="question6" type="radio">3</input>
+          <input name="question6" type="radio">2</input>
+          <input name="question6" type="radio">1</input>
+          <br>
+          My skin is dry
+          <input name="question7" type="radio">5</input>
+          <input name="question7" type="radio">4</input>
+          <input name="question7" type="radio">3</input>
+          <input name="question7" type="radio">2</input>
+          <input name="question7" type="radio">1</input>
+          <br>
+          My pee is light yellow
           <input name="question8" type="radio">5</input>
           <input name="question8" type="radio">4</input>
           <input name="question8" type="radio">3</input>
           <input name="question8" type="radio">2</input>
           <input name="question8" type="radio">1</input>
           <br>
-          I am in constant fear and worry
+          I get cramps
           <input name="question9" type="radio">5</input>
           <input name="question9" type="radio">4</input>
           <input name="question9" type="radio">3</input>
           <input name="question9" type="radio">2</input>
           <input name="question9" type="radio">1</input>
           <br>
-          I am trying to start something new like an enterprise or endeavor
+          I have shortness of breath
           <input name="question10" type="radio">5</input>
           <input name="question10" type="radio">4</input>
           <input name="question10" type="radio">3</input>
           <input name="question10" type="radio">2</input>
           <input name="question10" type="radio">1</input>
           <br>
-          I struggle with lonliness and depression
+          My teeth is not white
           <input name="question11" type="radio">5</input>
           <input name="question11" type="radio">4</input>
           <input name="question11" type="radio">3</input>
           <input name="question11" type="radio">2</input>
           <input name="question11" type="radio">1</input>
           <br>
-          I am addicted to alchohol or drugs
+          My eyes are not white
+          <input name="question12" type="radio">5</input>
+          <input name="question12" type="radio">4</input>
+          <input name="question12" type="radio">3</input>
+          <input name="question12" type="radio">2</input>
+          <input name="question12" type="radio">1</input>             
+      </div>
+      
+        <input id="survey-submit" type="submit" value="Submit">
+    
+    </form>
+  </div>
+  `,
+});
+
+Vue.component("survey3", {
+  template: `<div class="survey">
+    <form>
+    
+    <p>With 5 being the highest and 1 being the lowest, please rate how much the issue applies to you.</p>
+      <div class="survey-radio">
+       
+          I forgive people freely
+          <input name="question1" type="radio">5</input>
+          <input name="question1" type="radio">4</input>
+          <input name="question1" type="radio">3</input>
+          <input name="question1" type="radio">2</input>
+          <input name="question1" type="radio">1</input>
+          <br>
+          I am tactful in reprimanding and reproof
+          <input name="question2" type="radio">5</input>
+          <input name="question2" type="radio">4</input>
+          <input name="question2" type="radio">3</input>
+          <input name="question2" type="radio">2</input>
+          <input name="question2" type="radio">1</input>
+          <br>
+          I am respectful
+          <input name="question3" type="radio">5</input>
+          <input name="question3" type="radio">4</input>
+          <input name="question3" type="radio">3</input>
+          <input name="question3" type="radio">2</input>
+          <input name="question3" type="radio">1</input>
+          <br>
+          I am me first
+          <input name="question4" type="radio">5</input>
+          <input name="question4" type="radio">4</input>
+          <input name="question4" type="radio">3</input>
+          <input name="question4" type="radio">2</input>
+          <input name="question4" type="radio">1</input>
+          <br>
+          I blame others
+          <input name="question5" type="radio">5</input>
+          <input name="question5" type="radio">4</input>
+          <input name="question5" type="radio">3</input>
+          <input name="question5" type="radio">2</input>
+          <input name="question5" type="radio">1</input>
+          <br>
+         
+          I take things offensively
+          <input name="question7" type="radio">5</input>
+          <input name="question7" type="radio">4</input>
+          <input name="question7" type="radio">3</input>
+          <input name="question7" type="radio">2</input>
+          <input name="question7" type="radio">1</input>
+          <br>
+          
+      
+          I try to subdue others
           <input name="question12" type="radio">5</input>
           <input name="question12" type="radio">4</input>
           <input name="question12" type="radio">3</input>
