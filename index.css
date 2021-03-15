@@ -1,40 +1,34 @@
+#heading {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+h1 {
+  font-size: 2em;
+  border: 0px solid black;
+  padding: 0px;
+  margin: 0px;
+}
 #topnav {
   z-index: 1;
-  position: fixed;
-  top: 5px;
-  right: 20px;
   font-size: 1em;
-
+  text-align: right;
 }
-#topnav-link a{
+#topnav-link a {
   margin-left: 20px;
   border: 0px solid black;
 }
-
 #top-block {
   height: 30px;
   width: 100%;
   background-color: purple;
   display: block;
-  position: fixed;
   z-index: 1;
-  top: 30px;
-}
-
-#content-cover {
-  background-color: white;
-  height: 76px;
-  width: 100%;
-  border: 0 solid black;
-  position: fixed;
-  top: 0px;
-  z-index: 0;
 }
 
 #app {
   z-index: -1;
   display: block;
-  margin-top: 75px;
 }
 
 #app p {
@@ -42,35 +36,26 @@
   line-height: 25px;
 }
 
-hr {
-  width: 30%;
-}
-
-h1 {
-  font-size: 3em;
-  border: 0px solid black;
-  text-align: center;
-}
-
-.survey {
-  margin-top: 15px;
-}
-.survey-radio {
-  display: block;
-}
-.survey-submit {
-  margin-top: 15px;
-}
-.story-gen {
-  text-align: center;
+.the-lessons {
+  display: grid;
+  grid-template-rows: 40px 30px 30px 30px;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-flow: column;
 }
 
 #footer {
   margin-top: 50px;
-  height: 200px;
+  height: 30px;
   background-color: gray;
 }
-#rock-bottom{
-  height: 50px;
+
+#donate {
+  display: block;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+}
+#rock-bottom {
+  height: 20px;
   background-color: black;
 }
