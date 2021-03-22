@@ -10,7 +10,6 @@ h1 {
   margin: 0px;
 }
 #topnav {
-  z-index: 1;
   font-size: 1em;
   text-align: right;
 }
@@ -23,24 +22,18 @@ h1 {
   width: 100%;
   background-color: purple;
   display: block;
-  z-index: 1;
+ 
 }
 
-#app {
-  z-index: -1;
-  display: block;
-}
-
-#app p {
-  width: 100%;
-  line-height: 25px;
-}
-
-.the-lessons {
+.the-prophets {
   display: grid;
-  grid-template-rows: 40px 30px 30px 30px;
   grid-template-columns: auto auto auto auto;
   grid-auto-flow: column;
+}
+
+.the-topics {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 #footer {
@@ -55,6 +48,7 @@ h1 {
   margin: auto;
   align-items: center;
 }
+
 #rock-bottom {
   height: 20px;
   background-color: black;
